@@ -32,6 +32,8 @@ def inserir_novo_usuario(matricula, nome, senha):
     conexao.close()
     return exito
 
+if __name__=='__main__':
+    app.run(debug=True)
 
 
 
